@@ -40,7 +40,6 @@ body {
 }
 
 .lorem-ipsum {
-    margin-top: 2%;
     width: 48%;
 }
 
@@ -59,16 +58,23 @@ body {
     background-color: #e639476b;
 }
 
-.explication-button:hover {
-    border-color: #f1faee;
-    background-color: #e639476b;
-}
-
 .biglogo {
     text-align: center;
+    margin-top: 5%;
+    width: 68%;
 }
 
 .test {
     display: flex;
-    width: 100%
+    justify-content: flex-center;
+}
+
+.nav{
+    width: 30%;
+    margin-left: 30%;
+    margin-top: -2.2%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #1d3557;
 }
